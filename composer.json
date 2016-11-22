@@ -1,0 +1,36 @@
+{
+    "name": "lartie/telegram-bot-pagination",
+    "description": "Telegram Bot Pagination ",
+    "keywords": ["laravel", "telegram api", "telegram", "pagination", "telegram-callback", "telegram bot"],
+    "type": "library",
+    "homepage": "https://github.com/lartie/telegram-bot-pagination",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artie",
+            "email": "log.wil.log@gmail.com",
+            "homepage": "https://github.com/lartie"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.0",
+        "phpspec/prophecy": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LArtie\\TelegramBotPagination\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LArtie\\TelegramBotPagination\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
+
