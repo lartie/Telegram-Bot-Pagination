@@ -9,7 +9,6 @@
 - [Installation](#installation)
     - [Composer](#composer)
     - [Configuration](#configuration)
-    - [Service Provider](#service-provider)
 - [Usage](#usage)
     - [Test Data](#test-data)
     - [How To Use](#how-to-use)
@@ -21,18 +20,6 @@
 ### Composer
 ```bash
 composer require "lartie/telegram-bot-pagination:^1.0.0"
-```
-
-### Service Provider
-
-You must install this service provider.
-```php
-// config/app.php
-'providers' => [
-    ...
-    LArtie\TelegramBotPagination\TelegramBotPaginationServiceProvider::class,
-    ...
-];
 ```
 
 ## Usage
