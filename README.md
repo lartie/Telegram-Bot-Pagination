@@ -8,7 +8,6 @@
 
 - [Installation](#installation)
     - [Composer](#composer)
-    - [Configuration](#configuration)
 - [Usage](#usage)
     - [Test Data](#test-data)
     - [How To Use](#how-to-use)
